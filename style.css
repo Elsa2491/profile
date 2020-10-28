@@ -1,0 +1,72 @@
+/* fonts and colors only */
+body {
+  background-color: rgb(230, 230, 230);
+  color: rgb(50, 50, 50);
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+h1, h2 {
+  font-family: roboto;
+  color: #97BDC9;
+  line-height: 2;
+}
+
+h1 {
+   font-size: 20px;
+}
+
+h2 {
+   font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #5E5D5E;
+  opacity: 1.2;
+}
+
+ .btn {
+  text-decoration: none;
+  color: #9C7B5C;
+  font-size: 15px;
+ }
+
+/*.img {
+  border-radius: 50%;
+}*/
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  background: #FFFFFF
+  border-radius: 50px;
+  width: 500px;
+  height: 500px;
+}
+
+.card {
+  background: #FFFFFF;
+  border: 1px solid #D3DBCE;
+  border-radius: 5px ;
+  box-shadow: 1px 1px 1px #F0ECED;
+  padding: 50px;
+}
+
+/*Add cool touches to your cards using CSS properties like background,
+border, border-radius and box-shadow. Keep it simple,
+with white background and subtle radius and shadows (as you saw in the lecture)./*
